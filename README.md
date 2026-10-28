@@ -15,6 +15,6 @@
 - main2.py — основная программа.
 
 Команды для запуска:
-uv run python tasks/main1.py
-uv run python tasks/main2.py
-uv run python -m pytest -v
+uv run python tasks/main1.py     
+uv run python tasks/main2.py      
+uv run python -m pytest -v     
