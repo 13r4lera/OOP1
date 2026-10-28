@@ -1,5 +1,5 @@
-from task1 import html
-from task2 import People
+from tasks.task1 import html
+from tasks.task2 import People
 
 
 def test_html():
