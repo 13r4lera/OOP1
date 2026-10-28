@@ -13,10 +13,10 @@ class People:
     def show(self, month):
         found = False
         for p in sorted(self.data, key=lambda x: x["фамилия"]):
-            if p["дата"].month == month:
+            if p["дата"][1] == month:
                 print(p)
                 found = True
-            if not found:
-                print("Никого нет")
+        if not found:
+            print("Никого нет")
 
 __all__ = ["People"]
